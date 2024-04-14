@@ -1,1 +1,1 @@
-# school
+# Hydrate and rest well
