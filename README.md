@@ -7,7 +7,7 @@
 ## Model
   Skitlearn traintestsplit
   Linear regression 
-  Decision tree
+  Classification tree
   Clustering
   Abnomaly detection
   LSTM
