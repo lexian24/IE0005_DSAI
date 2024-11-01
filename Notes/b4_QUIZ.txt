@@ -1,0 +1,48 @@
+1. Agent & Environment Concepts
+
+Agent & Environment: The framework defines how agents interact with an environment. This interaction may involve:
+Non-deterministic behavior: Example of critical hits in a game.
+Dynamic environments: E.g., an agent makes decisions every 10 Hz, while the environment updates at 20 Hz.
+Environment Examples:
+Games like Chess, Pong, Monopoly, Starcraft, and simulations like Walking bots.
+Simplistic (e.g., Slot Machines) vs. complex (e.g., Space Invaders) environments.
+Why Separate Logic?
+Environment logic can range from simple decision trees to complex physics-based simulations.
+Agent logic can be designed independently of environment complexity.
+
+2. Search Algorithms Overview
+
+Uninformed (Blind) Search: No additional information about the state beyond the problem definition.
+BFS (Breadth-First Search): Explores all nodes level by level.
+DFS (Depth-First Search): Explores as deep as possible before backtracking.
+Uniform Cost Search: Considers path cost uniformly.
+DLS (Depth-Limited Search) & IDS (Iterative Deepening Search): Limit depth exploration.
+Informed Search:
+Greedy Search: Uses heuristics to estimate the best next step.
+A Search*: Combines heuristics and path cost for optimal decisions.
+Graph Search Concepts:
+Graphs are explored using structures like Queues for BFS and Stacks for DFS.
+Dijkstra’s Algorithm: Used for shortest path calculations.
+
+3. Constraint Satisfaction Problems (CSP)
+
+Backtracking Search: A form of depth-first search with constraints checking.
+Forward Checking & Constraint Propagation: Techniques to reduce the search space.
+Variables & Values: Goal is to find valid values that satisfy all constraints.
+
+4. Game Playing Algorithms
+
+Minimax Algorithm: Used for two-player games, where one player maximizes utility while the other minimizes it.
+Alpha-Beta Pruning: Optimization that skips evaluating certain branches to improve efficiency.
+Utility Calculation: Evaluates the desirability of game states.
+
+5. Reinforcement Learning (RL)
+
+Core Concepts:
+State, Action, Reward: The agent aims to maximize cumulative rewards.
+Markov Decision Process (MDP): Models the environment using probabilities.
+Expected Utility & Bellman Equation:
+The utility is propagated backward from the goal to states further away.
+Use of discounting to prioritize short-term over long-term rewards.
+Value Iteration & Policy Iteration:
+Methods to determine the optimal policy by evaluating and updating utilities over time.
